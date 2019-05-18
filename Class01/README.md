@@ -205,15 +205,15 @@ In this course, we will review a few commands so that you can become familiar wi
 
 There are nine basic bash commands you should familiarize yourself with:
 `"
-pwd - Print Working Directory - Prints to the screen the directory your command prompt is current in. 
-cd - Change Directory - changes the directory to one given
-ls - List - list the contents of the current directory
-cat - Concatenate - this displays the content of a file to the screen
-cp - Copy - copies a given file to a given location
-mv - Move - Moves a file from one location to another (often used to rename a file)
-rm - Remove - Removes a file
-rmdir - Remove Directory
-mkdir - Make Directory
+1. pwd - Print Working Directory - Prints to the screen the directory your command prompt is current in. 
+2. cd - Change Directory - changes the directory to one given
+3. ls - List - list the contents of the current directory
+4. cat - Concatenate - this displays the content of a file to the screen
+5. cp - Copy - copies a given file to a given location
+6. mv - Move - Moves a file from one location to another (often used to rename a file)
+7. rm - Remove - Removes a file
+8. rmdir - Remove Directory
+9. mkdir - Make Directory
 `"
 
 To get help with any of these commands, simply add the command line switch --help. For instance, to get help on ls, type
