@@ -1,7 +1,7 @@
-[TOC levels=1,2,3 numbered]: # "Class04"
+[TOC levels=1,2,3 numbered]: # "Class05"
 
-# Class04
-- [Class04](#class04)
+# Class05
+- [Class05](#class05)
 - [Objectives](#objectives)
 - [c05ex01](#c05ex01)
 - [Data Structures](#data-structures)
@@ -18,7 +18,7 @@
   - [Casting a tuple to a list](#casting-a-tuple-to-a-list)
   - [Collections](#collections)
   - [The 'in' Python Operator](#the-in-python-operator)
-- [c05ex3a](#c05ex3a)
+- [c05ex03a](#c05ex03a)
 - [c05ex03b](#c05ex03b)
   - [using zip to create a dictionary](#using-zip-to-create-a-dictionary)
     - [Example: Word Scramble](#example-word-scramble)
@@ -45,9 +45,9 @@ Test your function to ensure it works.
 
 # Data Structures
 
-We've covered variables such as int, bool, float and str. These, in a sense, are data structures, but we refer to them as `primatives`. You can also think of these are `atomic`, in that they are relatively indivisible and consist of `one thing`.
+We've covered variables such as int, bool, float and str. These, in a sense, are data structures, but we refer to them as `primitives`. You can also think of these are `atomic`, in that they are relatively indivisible and consist of `one thing`.
 
-Often in programming we want to store more than `one thing`, we often want to group things into data structures. We call these `composite` data structures. This is where Python really shines, as Python has a number of built in composite data structures that are quire useful. We'll be covering a subset of these data structures: Tuples, Lists, and Dictionaries.
+Often in programming we want to store more than `one thing`, we often want to group things into data structures. We call these `composite` data structures. This is where Python really shines, as Python has a number of built in composite data structures that are quite useful. We'll be covering a subset of these data structures: Tuples, Lists, and Dictionaries.
 
 ## Tuples
 
@@ -250,7 +250,7 @@ Using a constructor (looks like a function):
 {'rabbit': 'Fang', 'dog': 'Fluffy', 'cat': 'Whiskers'}
 ```
 
-Dictionaries are particular good at finding data:
+Dictionaries are particularly good at finding data:
 
 ```
 
@@ -285,7 +285,7 @@ dict_values(['Killer', 'Whiskers', 'Fang'])
 
 # c05ex02
 
-Write a program that uses a dictionary to translate a given digit (between 1 and 9) to it's word in French. Write a program that generates a random number between 1 and 9 (inclusive) and asks the user to enter the french word for that number. Display if they wre correct or not, and then display and ask them for another number, etc. The user can end the program by entering a negative number. 
+Write a program that uses a dictionary to translate a given digit (between 1 and 9) to it's word in French. Write a program that generates a random number between 1 and 9 (inclusive) and asks the user to enter the french word for that number. Display if they were correct or not, and then display and ask them for another number, etc. The user can end the program by entering a negative number. 
 
 
 
@@ -437,7 +437,7 @@ cat
 rabbit
 ```
 
-# c05ex3a
+# c05ex03a
 
 Create a tuple containing the names of all the courses you've completed at UT (for instance, ITM695, etc.)
 

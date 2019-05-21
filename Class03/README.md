@@ -204,9 +204,9 @@ Open a Python Console and try this for yourself:
 <class 'str'>
 ```
 
-Python is known as a **dynamically typed" language. Many languages, such as C, C++, Java, etc. are what is called **strongly typed** or **statically typed**. In statically typed languages, when a variable is created we must **declare** it's type. This is useful for large programs with many programmers, as it forces programmers to be very explicit, and carfull about the variables they are using. But, statically types languages can often be much more verbose and not as programmer friendly as dynamically typed languages.
+Python is known as a **dynamically typed" language. Many languages, such as C, C++, Java, etc. are what is called **strongly typed** or **statically typed**. In statically typed languages, when a variable is created we must **declare** it's type. This is useful for large programs with many programmers, as it forces programmers to be very explicit, and carfull about the variables they are using. But, statically typed languages can often be much more verbose and not as programmer friendly as dynamically typed languages.
 
-Since Python is a dynamically types language, Python will do two very useful things.
+Since Python is a dynamically typed language, Python will do two very useful things.
 1. It will infer the type of variable you need/are asking for.
 2. It will allow a variable to later be set to another value type.
 

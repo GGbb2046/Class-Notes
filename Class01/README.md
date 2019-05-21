@@ -32,7 +32,7 @@
 
 # Class01
 
-In this first class, I provide a (very) quick introduction to Python and computer programming, and then introduce command line interface, git/GitHub, and help students install the necessary software.
+In this first class, I provide a (very) quick introduction to Python and computer programming, and then introduce command line interface, Git/GitHub, and help students install the necessary software.
 
 
 ## Objectives
@@ -52,7 +52,7 @@ All content for this course is available via GitHub.
 
 Within GitHub, I've created an organization for ITM695x programming for managers.
 
-You will be able to access this course content once you create your GitHub account (this will be an exercise that you will do a bit later on in this class). For now, just read the content found on the professors screen.
+You will be able to access this course content once you create your GitHub account (this will be an exercise that you will do a bit later on in this class). For now, just read the content found on the professor's screen.
 
 
 # Introduction to Programming (and Python)
@@ -89,7 +89,7 @@ This course will give you the necessary foundational knowledge of the language a
 
 ## More background on Python
 
-Not named after the snake, but from Monty Python (The original creator of Python, Guido Van Rossum, was a big fan of Monty Python, and the  Python documentation and community can reflect this and be a bit humorous/whimsical)
+Not named after the snake, but from Monty Python (The original creator of Python, Guido Van Rossum, was a big fan of Monty Python, and the Python documentation and community can reflect this and be a bit humorous/whimsical)
 
 Python has a unique culture and community based on its core design philosophy on readability and syntax that enables you to write concise programs.
 
@@ -184,7 +184,7 @@ As we see from the historical context of the mainframe world, in a sense, we cou
 
 ### What about shells?
 
-Now, we have a third term that is often used synonymously with the other two -- that is "shell."
+Now, we have a third term that is often used synonymously with the other two, a "shell."
 
 When computers began having software terminals, the user needed a "language" to communicate with the computer. The language we use is presented as a user shell... a wrapper, in a sense, or what has become known as a shell (program), that provides a user interface (through a language) to the system.
 
@@ -262,13 +262,13 @@ NOTE: It is now expected that you have the basic ability to use a bash prompt to
 
 I trending topic in software development and management is "DevOps" (short for Developer Operations). Managing a large programming project involved many programmers, designers, and testers (and others). Coordinating such development is tricky -- you must protect work, record changes, and in general manage the overall integrity of the projects code. A separate, but related trend we're seeing is the rise of "social coding", which is the proliferation of open-source projects where you can contribute to, fork/copy and extend, publish new projects - with a rising level of programming literacy, we're seeing a large "social" community developing where sites like GitHub are used to exchange, publish, and use code. 
 
-Git is a program used to manage code repositories. It provides strict version control, and allows you to manage large projects and your ongoing work better. Git is a modern tool that has overtaken many previous CVS (Cocde Versioning Systems), and it often the center piece of any DevOps. 
+Git is a program used to manage code repositories. It provides strict version control, and allows you to manage large projects and your ongoing work better. Git is a modern tool that has overtaken many previous CVS (Code Versioning Systems), and it often the center piece of any DevOps. 
 
 NOTE: Git was developed by Linus Torvalds (of Linux fame) - I think it's important for you to understand something about the opensource/social-coding culture, the following video (TED interview) provides a nice intro to this culture -- https://www.youtube.com/watch?v=o8NPllzkFhE
 
 VCS (Version Control Systems)/ CVS (Code versioning system) such as Git are incorporated into developer workflow. Within any professional programming environment, you will find a VCS is being used.
 
-When writing programs you'll often collaborate with others to create an application. Developing large applications can be complex, often involving 100's of files of source-code, libraries and configuration files. Merely using a shared drive is not manageable -- as work can be easily lost when someone overwrites your work and does not merge it with their own work.  Even when not collaborating with others, developing software can often take months, or even years, of development effort. Managing all the files, updates to files, releases of the software, etc. can become very cumbersome and error-prone. This is where a VCS  can help significantly with the management of your application development.
+When writing programs, you'll often collaborate with others to create an application. Developing large applications can be complex, often involving 100's of files of source-code, libraries and configuration files. Merely using a shared drive is not manageable -- as work can be easily lost when someone overwrites your work and does not merge it with their own work.  Even when not collaborating with others, developing software can often take months, or even years, of development effort. Managing all the files, updates to files, releases of the software, etc. can become very cumbersome and error-prone. This is where a VCS can help significantly with the management of your application development.
 
 Though there are a number of CVS's out there, Git has grown to be one of the most popular (partly attributed to GitHub, which provide server space to store code and share with others -- creating a community of "social coding" where people can "fork" and update your code, provide suggestions or updates (through "pull requests") -- all when maintaining fine-grained control over the history of changes to files.
 
@@ -289,7 +289,7 @@ When changing files that are tracked by Git, they enter a **modified** state. On
 
 If a mistake is made, we can roll-back any changes to a previous commit. Also, we can have various versions of our project in branches. A common pattern is to have three levels of staging. The development branch, the testing branch, and then the master "release" branch.
 
-After exercise01 we should know have Git installed, let's practice using it and github
+After exercise01 we should know have Git installed, let's practice using it and Github
 
 # Exercise 02
 
@@ -317,7 +317,7 @@ Send an email with your account information to the professor (tcsmith@ut.edu). T
 
 # Exercise 03: Cloning course repos
 * The professor will walk you through downloading our class repos into our project.
-* Your personal repo (see you professor for your assigned repos name)
+* Your personal repo (see your professor for your assigned repos name)
   * ClassNotes
   * Tests
   * Assignments
