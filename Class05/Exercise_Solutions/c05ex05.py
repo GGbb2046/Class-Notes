@@ -3,7 +3,7 @@ Author:         Tim Smith
 Description:    Solution to Class04 Ex3
 """
 
-cubes = [x ** 3 for x in range(100)]  # see class notes. This is a simple list comprehension
+cubes = [x**3 for x in range(100)]  # see class notes. This is a simple list comprehension
 
 # here is the simple way
 counter = 0

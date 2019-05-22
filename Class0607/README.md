@@ -1,7 +1,7 @@
-[TOC levels=1,2,3 numbered]: # "Class06"
+[TOC levels=1,2,3 numbered]: # "Class0607"
 
-# Class06
-- [Class06](#class06)
+# Class0607
+- [Class0607](#class0607)
 - [Objectives](#objectives)
 - [Review](#review)
   - [I’m really, really stuck and I need help.](#im-really-really-stuck-and-i-need-help)
