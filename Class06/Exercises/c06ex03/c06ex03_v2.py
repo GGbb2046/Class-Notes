@@ -5,7 +5,13 @@ with open("sample.csv", "r") as fin:
     csv_in = csv.reader(fin)
     data = list(csv_in)
 
-data = [[int(x) for x in y] for y in data] # note this is a bit advanced; you could also use nester for loop
+# print(data)
+
+for row in range(len(data)):
+    for column in range(len(data[row])):
+        data[row][column]=int(data[row][column])
+
+# print(data)
 
 with open("output.csv", "w") as fout:
     csv_out = csv.writer(fout)

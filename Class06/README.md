@@ -861,7 +861,7 @@ print('ORIGINAL DATA: ', somedata)
 with open('data.json', 'w') as fout:
   json.dump(somedata, fout)
 
-with open('data.json', 'r') is fin:
+with open('data.json', 'r') as fin:
   somedata = json.load(fin)
 
 print('READ FROM JSON FILE: ', somedata)
@@ -870,10 +870,10 @@ somedata['fname'] = 'Al'
 print('ORIGINAL BUT EDITED IN MEMORY: ', somedata)
 
 with open('data.json', 'w') as fout:
-  json.dump(somedata, f)
+  json.dump(somedata, fout)
 
 with open('data.json', 'r') as fin:
-  somedata = json.load(f)
+  somedata = json.load(fin)
 
 print('RE-READ FROM JSON: ', somedata)
 
@@ -897,12 +897,12 @@ import shelve
 pets = ['Fluffy', 'Pookems', 'Killa']
 e2f = {1:"un", 2:"deux", 3:"trois"}
 
-with shelve.open('mydata.dat', "r") as shelfie:
+with shelve.open('mydata.dat') as shelfie:
   shelfie['pets'] = pets
   shelfie['english to french'] = e2f
 
 
-with shelve.open('mydata.dat', "w") as shelfie:
+with shelve.open('mydata.dat') as shelfie:
   print("keys --->",list(shelfie.keys()))
   print("values ->", list(shelfie.values()))
 ```
