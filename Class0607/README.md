@@ -493,7 +493,7 @@ Pi to three decimal places is 3.142
 |United States     |      China       |           Germany|United Kingdom|
 ```
 
-You can find out more about string formatting in python [here](https://realpython.com/python-string-formatting/) and in the official [Python Documentation](https://docs.python.org/).
+You can find out more about string formatting in python [here](https://realpython.com/python-string-formatting/) and in the official [Python Documentation](https://docs.python.org/), and [here](https://pyformat.info/) for a comparison and contrast between the "old" and "new" formatting styles.
 
 
 # Working with data from files
