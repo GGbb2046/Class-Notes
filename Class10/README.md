@@ -132,10 +132,13 @@ Why use this? You can automate security and issue testing in your "devOps" (deve
 
 Bandit is a tool designed to find common security issues in Python code. To do this Bandit processes each file, builds an AST from it, and runs appropriate plugins against the AST nodes. Once Bandit has finished scanning all the files it generates a report.
 
-Install bandit
+(for more on bandit, see here https://pypi.org/project/bandit/)
+
+Let's install bandit...
+
 
 ```
-conda install -c auto bandit
+pip install bandit
 ```
 
 NOTE: You may get a warning to install msgpack (or other). Simple use pip to install any missing packages.
@@ -165,7 +168,7 @@ Installing collected packages: smmap2, gitdb2, GitPython, pbr, stevedore, bandit
 Successfully installed GitPython-2.1.9 bandit-1.4.0 gitdb2-2.0.3 pbr-4.0.3 smmap2-2.0.3 stevedore-1.28.0
 ```
 
-Watch for any message that may something about a package that is required but not installed (you may, or may not have to - you ponly have to if there is a message saying so.
+Watch for any message that may something about a package that is required but not installed (you may, or may not have to - you only have to if there is a message saying so.
 
 
 Having bandit scan a code tree (your project and project subfolders)
