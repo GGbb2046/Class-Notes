@@ -7,7 +7,6 @@
   - [Style guides and best practices](#style-guides-and-best-practices)
   - [Exception Handling](#exception-handling)
   - [Static Analysis](#static-analysis)
-    - [Static Analysis with PyCharm](#static-analysis-with-pycharm)
     - [Static Analysis with Bandit](#static-analysis-with-bandit)
 
 
@@ -121,8 +120,6 @@ except FileNotFoundError:
 You can explore all of Python's builtin exceptions here https://docs.python.org/3/library/exceptions.html
 
 ## Static Analysis
-
-### Static Analysis with PyCharm
 
 Static analysis is an analysis of code at "compile time" - it's analyzing code without executing it. Static analysis involves scanning code to identify potential issues. Static analysis is accomplished both manually (code review) and through tools like pyflakes, bandit, etc.
 
