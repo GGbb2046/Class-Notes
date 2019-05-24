@@ -19,7 +19,7 @@
 
 Two general forms of errors. Compile time errors (these are errors in syntax and structure), and runtime errors (these can be the most incidious and difficult to track).
 
-Syntax errors are caught during the compile phase of developing software. Since Python is (generall) a interpretted language, only the code that is run is "compiled", and thus with Python live testing of code is very important. With a compiled lanuguage, if there is an error in a branch of code that only get's executed under the right conditions, syntax will still be found during the compile process --  even if the code never runs. With Python, you need to have the branch of code run in order to identify if there are any 'compile time' errors. (NOTE: This is a side effect of the dynamic nature of Python that makes it easy to work with -- I guess there isn't are free lunch here).
+Syntax errors are caught during the compile phase of developing software. Since Python is (generally) an interpreted language, only the code that is run is "compiled", and thus with Python, live testing (with well thought out test cases) of code is especially important. With a compiled language, if there is an error in a branch of code that only gets executed under the right conditions, syntax will still be found during the compile process --  even if the code never runs. With Python, you need to have the branch of code run in order to identify if there are any 'compile time' errors. (NOTE: This is a side effect of the dynamic nature of Python that makes it easy to work with -- as the saying goes "There is not such thing as a free lunch")
 
 ## Style guides and best practices
 
