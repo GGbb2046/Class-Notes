@@ -23,7 +23,7 @@ Syntax errors are caught during the compile phase of developing software. Since 
 
 ## Style guides and best practices
 
-When working on a large project, you'll encounter style guides. Though such guides might seem to "impose" unnecessary structure, these guides are important as they help teams coordinate efforts to increase readability of code, and decrease incidents of introducing errors in the code.
+When working on a large project, you'll often encounter a "style guide" (developed and/or managed by some project lead(s)). Though such guides might seem to "impose" unnecessary structure, it's important to follow any such guides as they as essential to help teams coordinate efforts to increase readability of code, and decrease incidents of introducing errors in the code.
 
 Some best practices:
 * We all write buggy code. You're not above this. Accept this, and deal with it.
