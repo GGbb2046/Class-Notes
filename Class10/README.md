@@ -199,7 +199,7 @@ bandit -r ./ -f html -o outresults.html
 * -f type of output file format (in this case, html)
 
 
-After this is finished, you will find an outresults.html in this folder. This file contains all the security issues detected by bandit. You can view this output in a webbrowser (by opening the file using a webbrowser) or vscode. 
+After this is finished, you will find an outresults.html in this folder. This file contains all the security issues detected by bandit. You can view this output in a web-browser (by opening the file using a web-browser) or vscode. 
 
 You'll notice there are two measures of issues: Severity, and Confidence about the finding.
 
